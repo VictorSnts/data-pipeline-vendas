@@ -1,0 +1,2 @@
+    Criar uma conta no MongoDB e configurar um cluster no MongoDB Atlas.
+    Utilizar a biblioteca pymongo para realizar a conexão do Python com o MongoDB.
