@@ -6,3 +6,14 @@
     Inserir dados em um banco de dados usando pymongo.
     Deletar documentos de uma coleção.
     Construir funções para extração e tratamento de dados em um script Python.
+
+
+O pymongo, assim como o MongoDB, suporta uma variedade de operadores de consulta para lidar com diferentes situações. Aqui estão alguns dos mais comumente usados:
+    $gt: captura documentos no qual o valor de um campo é superior ao especificado.
+    $gte: utilizado quando o valor de um campo precisa ser maior ou igual ao valor especificado.
+    $lt: encontra documentos em que o valor de um campo é menor que o especificado.
+    $lte: utilizado para valores de campos menores ou iguais ao valor especificado.
+    $ne: filtra documentos nos quais o valor de um campo é diferente do valor especificado.
+    $in: útil quando o valor de um campo está dentro de um conjunto especificado de valores.
+    $nin: encontra documentos em que o valor de um campo não está em um conjunto especificado de valores.
+    $regex: permite a utilização de uma expressão regular para correspondências mais complexas.
