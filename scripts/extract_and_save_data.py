@@ -43,15 +43,16 @@ def insert_data(collection, data):
     return num_docs
 
 
+if __name__ == "__main__":
+    uri = "mongodb+srv://victorsantos:12345@cluster-pipeline.wakdkz3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Pipeline"
+    db_name = "db_produtos_new"
+    collection_name = "produtos_new"
+    url_api = "https://labdados.com/produtos"
 
-uri = "mongodb+srv://victorsantos:12345@cluster-pipeline.wakdkz3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Pipeline"
-db_name = "db_produtos_new"
-collection_name = "produtos_new"
-url_api = "https://labdados.com/produtos"
-
-client = connect_mongo(uri)
-db = create_connect_db(client, db_name)
-collection = create_connect_collection(db, collection_name)
-data_api = extract_api_data(url_api)
-insert_data(collection, data_api)
+    client = connect_mongo(uri)
+    db = create_connect_db(client, db_name)
+    collection = create_connect_collection(db, collection_name)
+    data_api = extract_api_data(url_api)
+    insert_data(collection, data_api)
+    client.close()
 
