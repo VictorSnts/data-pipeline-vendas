@@ -1,2 +1,8 @@
     Criar uma conta no MongoDB e configurar um cluster no MongoDB Atlas.
     Utilizar a biblioteca pymongo para realizar a conexão do Python com o MongoDB.
+    Criar e excluir bancos de dados no MongoDB.
+    Criar coleções no MongoDB.
+    Extrair dados de uma API.
+    Inserir dados em um banco de dados usando pymongo.
+    Deletar documentos de uma coleção.
+    Construir funções para extração e tratamento de dados em um script Python.
