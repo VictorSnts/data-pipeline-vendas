@@ -45,8 +45,8 @@ def insert_data(collection, data):
 
 if __name__ == "__main__":
     uri = "mongodb+srv://victorsantos:12345@cluster-pipeline.wakdkz3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-Pipeline"
-    db_name = "db_produtos_new"
-    collection_name = "produtos_new"
+    db_name = "db_produtos"
+    collection_name = "produtos"
     url_api = "https://labdados.com/produtos"
 
     client = connect_mongo(uri)

@@ -6,6 +6,13 @@
     Inserir dados em um banco de dados usando pymongo.
     Deletar documentos de uma coleção.
     Construir funções para extração e tratamento de dados em um script Python.
+    Realizar a leitura de dados do MongoDB, utilizando o método find para percorrer os dados.
+    Atualizar os dados do MongoDB utilizando o update_many.
+    Estruturar queries no MongoDB.
+    Manipular datas utilizando Pandas.
+    Trabalhar com diferentes operadores de consulta.
+    Desenvolver uma expressão regular para selecionar dados específicos.
+    Consolidar as funções do Notebook em um script Python para tratamento dos dados
 
 
 O pymongo, assim como o MongoDB, suporta uma variedade de operadores de consulta para lidar com diferentes situações. Aqui estão alguns dos mais comumente usados:
